@@ -5,9 +5,10 @@ body{
 }
 /* Navigation Bar */
 .nav-bar{
-    width: 1200px;
+    width: 90%;
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .nav-bar li{
@@ -22,7 +23,6 @@ body{
 .nav-bar ul{
     display: flex;
     margin-top: 25px;
-    margin-left: 250px;
 }
 
 .nav-bar a:hover{
@@ -134,16 +134,15 @@ body{
 }
 
 .container-box{
-    width: 1200px;
+    width: 90%;
     height: 528px;
     display: flex;
     margin: 0 auto;
     margin-bottom: 60px;
-    
 }
 
 .box{
-    width: 360px;
+    width: 30%;
     box-shadow: 20px 20px 20px lightgray; 
     border-radius: 25px;
     margin: 0 20px;
@@ -175,6 +174,36 @@ body{
     color: #18191F;
 }
 
+/* Social Media Section */
+.small-box{
+    width: 90%;
+    height: 250px;
+    margin: 40px auto;
+    box-shadow: 10px 10px 20px lightgray;
+    display: flex;
+}
+
+.inside-part{
+    width: 30%;
+    height: 60%;
+    margin: 4% 2%;
+    text-align: center;
+}
+
+.inside-part h3{
+    font-weight: bold;
+    font-size: 48px;
+    color: #18191F;
+    line-height: 64px;
+    margin-bottom: 0;
+}
+
+.inside-part p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #18191F;
+    margin-top: 0;
+}
 /* Order Now */
 
 #order-now h2{
@@ -257,6 +286,7 @@ form{
 
 footer
 {
+    width: 100%;
     margin-top: 40px;
     height: 220px;
     background-color: #0B0D17;
