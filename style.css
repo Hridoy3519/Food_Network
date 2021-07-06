@@ -73,18 +73,10 @@ body{
     margin-bottom: 80px;
 }
 
-.about-content h3{
+.about-content h2{
     color: #828282;
     font-size: 24px;
 }
-
-/* #left{
-    background-color: yellow;
-}
-
-#right{
-    background-color: red;
-} */
 
 /* Recipe section */
 
@@ -113,6 +105,7 @@ body{
     height: 528px;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 40px;
     
 }
 
@@ -144,6 +137,78 @@ body{
     color: #18191F;
 }
 
+/* Order Now */
+
+#order-now h2{
+    text-align: center;
+    padding-top: 30px;
+    color: #676767;
+}
+
+#order-now img{
+    margin-top: 35px;
+    height: 100%;
+    width: 100%;
+}
+#order-now{
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.form-field{
+    margin-bottom: 20px; 
+} 
+.input{
+    width: 500px;
+    height: 30px;
+    border-width: 0 0 3px 0;
+    border-color: #06a3f7;
+    background-color: #EBF8FF;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.form-field .input{
+    outline: none;
+}
+.select{
+    background-color: #06a3f7;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.label{
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 15px;
+    color: #676767;
+}
+
+.select-label{
+    margin-top: 30px;
+}
+
+.submit-btn{
+    background-image: linear-gradient(124deg, rgb(112, 112, 196),#064497);
+    color: white;
+    font-size: 16px;
+    padding: 8px 8px;
+    border: none;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
 /* footer section */
 
 footer
@@ -171,6 +236,7 @@ footer p{
 .food-text-color{
     background: linear-gradient(to right, #FBA24F 100%,#FF1E1E 100%);
     -webkit-text-fill-color: transparent ;
+    background-clip: unset;
     -webkit-background-clip: text;
 }
 
