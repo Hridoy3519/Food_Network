@@ -243,7 +243,7 @@ form{
 }
 
 .submit-btn{
-    background-image: linear-gradient(124deg, rgb(112, 112, 196),#064497);
+    background-image: linear-gradient(90deg, #7676d6,#064497);
     color: white;
     font-size: 16px;
     padding: 15px 30px;
@@ -268,11 +268,8 @@ footer h3{
     margin-bottom: 0;
 } 
 
-footer p{
+footer p, small{
     color: white;
 }
 
-small{
-    color: white;
-}
 
